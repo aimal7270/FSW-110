@@ -3,6 +3,7 @@ const myForm = document.getElementById("myForm");
 myForm.addEventListener("submit", (e) => {
     e.preventDefault();
     
+    
     var first = document.getElementById("first");
     var last = document.getElementById("last");
     var age = document.getElementById("age");
